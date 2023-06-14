@@ -1,3 +1,246 @@
-h1 {
-    font-weight: bold;
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+header {
+    height: 80px;
+}
+
+/* layout */
+.container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.container_header {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.image_container {
+    height: 26px;
+    margin-right: 27%;
+
+}
+
+
+.h_logo {
+    height: 26px;
+    margin-top: 2%;
+    /*width: 102px;
+    display: inline-flex;*/
+    width: 102px;
+
+}
+
+.h_search {
+    display: inline-block;
+    margin-right: 14%;
+    margin-top: 20px;
+}
+
+.h_search ul {
+    height: 46px;
+    width: 350.203;
+    display: inline-block;
+    border-radius: 40px;
+    border: 1px solid #dddd;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+}
+
+.l_search,
+.l1_search {
+    display: inline-block;
+    text-align: center;
+}
+
+.l_search {
+    margin: 1px;
+    display: inline-block;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 1px;
+
+}
+
+.h_search ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.chr {
+    display: inline-block;
+    height: 25px;
+}
+
+.h_simg {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+
+}
+
+
+.user1_container {
+    align-items: center;
+    float: left;
+    width: auto;
+    display: inline-flex;
+    padding-top: 10px;
+}
+
+.h_yhome {
+    display: inline-block;
+    color: black;
+    padding-left: 5px;
+    padding-right: 12px;
+
+    text-decoration: none;
+}
+
+.h_world {
+    position: relative;
+    padding: 12px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.h_world img {
+    height: 15.5px;
+    width: 15.5px;
+}
+
+.h_user {
+    display: inline-block;
+    padding: 5px 5px 5px 12px;
+}
+
+.h_user ul {
+
+    width: 77px;
+    height: 42px;
+    border: 1px solid #dddd;
+    border-radius: 21px;
+    display: inline-block;
+
+}
+
+.h_user ul li {
+    display: inline-block;
+    padding: 5px 5px 5px 12px;
+}
+
+.h_user ul li {
+    height: 32px;
+    width: 32px;
+}
+
+.h_threeines {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    float: left;
+
+}
+
+.h_user128 {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-left: 12px;
+
+}
+
+*/ .hr1 {
+    color: #dddd;
+}
+
+/* nav */
+.s_container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.pre_btn{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+}
+.nxt_btn{
+    position: absolute;
+    display: inline-flex;
+text-align:    center     ;    float: left;
+}
+
+
+.nav_container {
+    padding: 0, 10vw;
+    display: inline-flex;
+    overflow-x: hidden;
+    overflow-y:inherit;
+    scroll-behavior: smooth;
+    width: 90%;
+}
+
+nav_container::-webkit-scrollbar {
+    display: none;
+    
+
+}
+
+.nav_card {
+    position: relative;
+    width: max-content;
+    height: 56px;
+    padding: 4px 0 4px;
+    margin: 12px 0 10px;
+    align-items: center;
+    margin-right: 32px;
+}
+
+.nav_img {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.svg_img {
+    height: 24px;
+    width: 24px;
+}
+
+.nav_name {
+    margin-top: 5px;
+    width: max-content;
+    height: 100%;
+}
+
+.nav_flter {
+    display: inline-flex;
+    margin-top: 18px;
+   
+    border-radius: 10;
+}
+.nav_flter ul{
+    border: 1px solid black;
+    border-radius: 20px;
+    }
+.nav_flter li span{
+    text-decoration: none;
+}
+.nav_flter_img {
+    height: 20px;
+    width: 20px;
 }
