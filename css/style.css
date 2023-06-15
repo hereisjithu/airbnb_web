@@ -122,8 +122,10 @@ header {
 }
 
 .h_user {
-    display: inline-block;
+    width: 77px;
+    height: 42px;
     padding: 5px 5px 5px 12px;
+   
 }
 
 .h_user ul {
@@ -132,7 +134,8 @@ header {
     height: 42px;
     border: 1px solid #dddd;
     border-radius: 21px;
-    display: inline-block;
+    display: inline-flex;
+    padding-left: 10px;
 
 }
 
@@ -158,7 +161,7 @@ header {
     position: absolute;
     height: 30px;
     width: 30px;
-    margin-left: 12px;
+   
 
 }
 
@@ -229,18 +232,26 @@ nav_container::-webkit-scrollbar {
 
 .nav_flter {
     display: inline-flex;
-    margin-top: 18px;
+    margin-top: 20px;
+    height: 40px;
+    width: 114.56px;
+    padding-left: 24px;
    
-    border-radius: 10;
+   
 }
 .nav_flter ul{
-    border: 1px solid black;
-    border-radius: 20px;
+    border: 1px solid #dddd;
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 10px;
+    
     }
-.nav_flter li span{
-    text-decoration: none;
-}
+
 .nav_flter_img {
-    height: 20px;
-    width: 20px;
+    height: 10px;
+    width: 14px;
+    margin-right: 12px;
 }
+
+
+/* image slider */
